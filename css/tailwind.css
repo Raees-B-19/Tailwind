@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainDiv {
+  @apply max-w-md mx-auto px-8 py-3
+  sm:max-w-xl;
+}
+.svg {
+  width: 250px;
+  @apply mt-3
+  sm:mt-3;
+}
+.beachImg {
+  @apply rounded-lg
+  mt-6
+  shadow-lg
+  sm:object-cover;
+}
+.heading {
+  @apply font-bold text-3xl text-slate-900 mt-6
+  sm:text-4xl mt-8;
+}
+.para {
+  @apply mt-4 text-slate-700 
+  sm:mt-6 text-xl;
+}
+.btnLink {
+  @apply uppercase 
+  tracking-wider 
+  font-semibold 
+  text-sm 
+  shadow-lg 
+  bg-indigo-600 
+  text-slate-200 
+  py-3 
+  px-4 
+  rounded-lg
+  inline-block
+  sm:text-base;
+}
