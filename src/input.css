@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paraPink{
+    color: pink;
+}
+
+
+/* @apply text-pink-500 */
