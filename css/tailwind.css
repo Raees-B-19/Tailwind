@@ -4,7 +4,10 @@
 
 .mainDiv {
   @apply max-w-md mx-auto px-8 py-3
-  sm:max-w-xl;
+  sm:max-w-xl
+  lg:py-24 max-w-full
+  xl:mr-0
+  2xl:mx-auto;
 }
 .svg {
   width: 250px;
@@ -15,7 +18,8 @@
   @apply rounded-lg
   mt-6
   shadow-lg
-  sm:object-cover;
+  sm:object-cover
+  lg:hidden;
 }
 .heading {
   @apply font-bold text-3xl text-slate-900 mt-6
@@ -23,7 +27,8 @@
 }
 .para {
   @apply mt-4 text-slate-700 
-  sm:mt-6 text-xl;
+  sm:mt-6 text-xl
+  lg:text-2xl;
 }
 .btnLink {
   @apply uppercase 
