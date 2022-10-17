@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 .mainDiv {
   @apply max-w-md mx-auto px-8 py-3
@@ -52,3 +51,5 @@
   focus:ring-indigo-800
   transform transition;
 }
+
+@tailwind utilities;
