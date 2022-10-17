@@ -42,9 +42,10 @@
   px-4 
   rounded-lg
   inline-block
-  sm:text-base;
-  @apply hover:bg-indigo-700 
+  sm:text-base
+  hover:bg-indigo-700 
   hover:-translate-y-0.5
+  active:bg-violet-700
   focus:outline-none
   focus:ring
   focus:ring-offset-2
