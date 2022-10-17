@@ -31,7 +31,7 @@
   lg:text-2xl;
 }
 .btnLink {
-  @apply uppercase 
+  @apply uppercase
   tracking-wider 
   font-semibold 
   text-sm 
@@ -43,4 +43,11 @@
   rounded-lg
   inline-block
   sm:text-base;
+  @apply hover:bg-indigo-700 
+  hover:-translate-y-0.5
+  focus:outline-none
+  focus:ring
+  focus:ring-offset-2
+  focus:ring-indigo-800
+  transform transition;
 }
